@@ -5,7 +5,7 @@ const cron = require('node-cron');
 const nodemailer = require('nodemailer');
 require('dotenv').config();
 
-const User = require('./models/User');
+const User = require('./models/user');
 
 const app = express();
 
